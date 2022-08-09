@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="item1">
+            <img src="img/product1.jpg" alt="TShirt">
+            <div class="title"> T-Shirt</div>
+            <div>
+                <label for="product1">SIZE :</label>
+                <select name="" id="">
+                    <option>30</option>
+                    <option>32</option>
+                    <option>33</option>
+                    <option>34</option>
+
+                </select>
+                <div class="price"> 200 DT</div>
+            </div>
+            <button onclick="addToCart(item1)"> Ajouter </button>
+        </div>
+        <div class="card" id="item2">
+            <img src="img/product2.jpg" alt="Ecouteur">
+            <div class="title"> Ecouteur</div>
+            <div>
+                <label for="product1">COLOR :</label>
+                <select name="" id="">
+                    <option>White</option>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Green</option>
+
+                </select>
+                <div class="price"> 100 DT</div>
+            </div>
+            <button onclick="addToCart(item2)"> Ajouter </button>
+        </div>
+    </div>
+   <div class="cart" id="cart">
+    <div class="title">CART</div><hr/>
+    <div id="title">Title</div>
+   </div>
+   <script src="main.js"></script>
+</body>
+
+</html>
